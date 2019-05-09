@@ -1,0 +1,23 @@
+uuid: bef8e874-8ca0-4a37-8dfa-8ae287ae3fb9
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - taxonomy
+id: patron_taxonomia
+label: 'Patron taxonomia'
+type: 'canonical_entities:taxonomy_term'
+pattern: '[term:vocabulary]/[term:name]'
+selection_criteria:
+  495f24b9-d6b5-404c-9477-b54efefec632:
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      productos: productos
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    uuid: 495f24b9-d6b5-404c-9477-b54efefec632
+selection_logic: and
+weight: 0
+relationships: {  }

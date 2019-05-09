@@ -1,0 +1,9 @@
+uuid: 7ab9efc5-e672-434a-85fd-18e564a1e355
+langcode: en
+status: true
+dependencies: {  }
+name: Editorial
+vid: editorial
+description: 'La editorial del libro'
+hierarchy: 0
+weight: -6

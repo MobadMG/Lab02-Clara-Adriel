@@ -1,0 +1,14 @@
+uuid: 49d0c76b-02fa-4d0a-82c3-de2fb27a3381
+name: newDemo
+mail: rock_131@hotmail.es
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

@@ -1,0 +1,22 @@
+uuid: 2a0e67a6-b625-496b-a550-9619b73e0495
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: patron_articulo
+label: 'Patron Articulo'
+type: 'canonical_entities:node'
+pattern: 'articulo/[node:title]'
+selection_criteria:
+  96a0f1ed-1847-4706-816a-9ac46a09246f:
+    id: node_type
+    bundles:
+      article: article
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 96a0f1ed-1847-4706-816a-9ac46a09246f
+selection_logic: and
+weight: -5
+relationships: {  }

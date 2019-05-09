@@ -1,0 +1,9 @@
+uuid: c5af0153-862c-4722-b044-6f107cac4653
+langcode: en
+status: true
+dependencies: {  }
+name: Categoria
+vid: categoria
+description: 'La categoria del libro'
+hierarchy: 0
+weight: -7

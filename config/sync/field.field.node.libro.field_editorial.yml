@@ -1,0 +1,29 @@
+uuid: fa2d8826-699e-4cfc-a9ad-21e21607db65
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_editorial
+    - node.type.libro
+    - taxonomy.vocabulary.editorial
+id: node.libro.field_editorial
+field_name: field_editorial
+entity_type: node
+bundle: libro
+label: Editorial
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      editorial: editorial
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

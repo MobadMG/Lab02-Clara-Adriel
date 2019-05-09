@@ -1,0 +1,13 @@
+uuid: b4d6366c-cf07-416d-9b0e-a2a27d7cb57d
+langcode: en
+status: true
+dependencies: {  }
+id: media_type_de_imagenes
+label: 'Media Type de imagenes'
+description: 'Un media type para imagenes'
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_image_1
+field_map: {  }

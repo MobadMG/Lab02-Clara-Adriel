@@ -1,0 +1,9 @@
+uuid: f1c67dbd-0893-4e0f-9dcc-b7edf8b7263b
+langcode: en
+status: true
+dependencies: {  }
+name: Titulo
+vid: titulo
+description: 'El titulo del libro'
+hierarchy: 0
+weight: -10

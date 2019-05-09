@@ -1,0 +1,9 @@
+uuid: 6c626796-d5b5-4737-bac7-02d37e0e0cc7
+langcode: en
+status: true
+dependencies: {  }
+name: Autor
+vid: autor
+description: 'Los autores del libro'
+hierarchy: 0
+weight: -9

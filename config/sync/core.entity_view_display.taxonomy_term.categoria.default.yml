@@ -1,0 +1,32 @@
+uuid: 8b1089e4-ee16-4e70-ba1a-4d39dbcb7704
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.categoria.field_categoria_imagen
+    - taxonomy.vocabulary.categoria
+  module:
+    - image
+    - text
+id: taxonomy_term.categoria.default
+targetEntityType: taxonomy_term
+bundle: categoria
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_categoria_imagen:
+    weight: 1
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }
