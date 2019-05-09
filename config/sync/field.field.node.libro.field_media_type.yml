@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.storage.node.field_media_type
+    - media.type.image
     - media.type.media_type_de_imagenes
     - node.type.libro
 id: node.libro.field_media_type
@@ -20,9 +21,10 @@ settings:
   handler: 'default:media'
   handler_settings:
     target_bundles:
+      image: image
       media_type_de_imagenes: media_type_de_imagenes
     sort:
       field: _none
     auto_create: false
-    auto_create_bundle: ''
+    auto_create_bundle: image
 field_type: entity_reference

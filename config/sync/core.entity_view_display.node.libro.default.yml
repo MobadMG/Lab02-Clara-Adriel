@@ -53,14 +53,14 @@ content:
     type: entity_reference_label
     region: content
   field_imagen_del_libro:
+    type: image
     weight: 3
+    region: content
     label: above
     settings:
       image_style: medium
       image_link: ''
     third_party_settings: {  }
-    type: image
-    region: content
   field_media_type:
     type: media_thumbnail
     weight: 6
