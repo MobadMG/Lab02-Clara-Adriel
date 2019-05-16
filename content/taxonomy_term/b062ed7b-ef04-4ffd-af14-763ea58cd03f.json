@@ -1,0 +1,91 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/taxonomy\/term\/10?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/autor"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/autor\/parent": [
+            null
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/autor\/field_foto_autor": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2019-05\/tolkien.jpg"
+            }
+        ]
+    },
+    "tid": [
+        {
+            "value": 10
+        }
+    ],
+    "uuid": [
+        {
+            "value": "b062ed7b-ef04-4ffd-af14-763ea58cd03f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "autor"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "J. R. R. Tolkien",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/autor\/parent": [
+            null
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/autor\/field_foto_autor": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2019-05\/tolkien.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f4a08303-a875-403c-a824-e795a98819ed"
+                    }
+                ]
+            }
+        ]
+    },
+    "changed": [
+        {
+            "value": "2019-05-06T23:26:43+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ]
+}

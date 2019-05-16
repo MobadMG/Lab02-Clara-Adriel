@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/sites\/default\/files\/2019-05\/alldigital_1.jpg"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 7
+        }
+    ],
+    "uuid": [
+        {
+            "value": "5b8b41ba-9917-4a8a-a558-6c5708e4c5cb"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "885d452a-54dc-4167-b719-3b68da95e142"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "alldigital_1.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2019-05\/alldigital_1.jpg",
+            "url": "\/sites\/default\/files\/2019-05\/alldigital_1.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 32223
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-02T01:31:12+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-05-02T01:31:18+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

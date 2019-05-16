@@ -1,0 +1,41 @@
+uuid: 3f2d804b-1186-45c3-ac22-c560b3c16318
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.media_file_browser
+  module:
+    - views
+name: pdf
+label: PDF
+display: modal
+display_configuration:
+  width: '650'
+  height: '500'
+  link_text: 'Select entities'
+  auto_open: false
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: tabs
+widget_selector_configuration: {  }
+widgets:
+  d4b1a208-6cd9-4bc2-abd7-557170a4bc7b:
+    settings:
+      upload_location: 'public://'
+      multiple: true
+      submit_text: 'Select files'
+      extensions: pdf
+    uuid: d4b1a208-6cd9-4bc2-abd7-557170a4bc7b
+    weight: 1
+    label: 'Subir pdf'
+    id: upload
+  b9811fa2-a48e-4ec0-8d0b-6f883736199a:
+    settings:
+      view: media_file_browser
+      view_display: media_browser_all
+      submit_text: 'Select entities'
+      auto_select: false
+    uuid: b9811fa2-a48e-4ec0-8d0b-6f883736199a
+    weight: 2
+    label: view
+    id: view

@@ -1,0 +1,69 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/taxonomy\/term\/7?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/titulo"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/titulo\/parent": [
+            null
+        ]
+    },
+    "tid": [
+        {
+            "value": 7
+        }
+    ],
+    "uuid": [
+        {
+            "value": "540d8713-aea0-4df5-9929-dde2cd58c4fc"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "titulo"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "Lord of the Rings",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/titulo\/parent": [
+            null
+        ]
+    },
+    "changed": [
+        {
+            "value": "2019-05-04T19:31:10+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ]
+}

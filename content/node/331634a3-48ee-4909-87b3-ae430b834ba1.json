@@ -1,0 +1,255 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/8?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/libro"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/libro\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/libro\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/libro\/field_autor": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/10?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/libro\/field_categoria": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/14?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/12?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/libro\/field_editorial": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/15?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/libro\/field_imagen_del_libro": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2019-05\/lordrings.jpg"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 8
+        }
+    ],
+    "uuid": [
+        {
+            "value": "331634a3-48ee-4909-87b3-ae430b834ba1"
+        }
+    ],
+    "vid": [
+        {
+            "value": 26
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "libro"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-05-04T19:41:55+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/libro\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "885d452a-54dc-4167-b719-3b68da95e142"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/libro\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "885d452a-54dc-4167-b719-3b68da95e142"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/libro\/field_autor": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/10?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/autor"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b062ed7b-ef04-4ffd-af14-763ea58cd03f"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/libro\/field_categoria": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/14?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/categoria"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1234fc7e-a1bf-45a6-bd7c-28dbbd0a0e57"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/12?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/categoria"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "02351c8a-2a5d-485b-b6ed-c25a6710e27c"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/libro\/field_editorial": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/15?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/editorial"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d363dee2-9f13-4c3f-8038-9f7975c662da"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/libro\/field_imagen_del_libro": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2019-05\/lordrings.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1cedb696-74dd-4e57-bb91-633430900c73"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Lord of the RIngs",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-04T19:33:38+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-05-04T19:41:55+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>An epic high fantasy&nbsp;novel written by English author and scholar J. R. R. Tolkien. The story began as a sequel to Tolkien's 1937 fantasy novel The Hobbit, but eventually developed into a much larger work. Written in stages between 1937 and 1949,&nbsp;The Lord of the Rings&nbsp;is one of the best-selling novels ever written, with over 150 million copies sold.<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>An epic high fantasy\u00a0novel written by English author and scholar J. R. R. Tolkien. The story began as a sequel to Tolkien's 1937 fantasy novel The Hobbit, but eventually developed into a much larger work. Written in stages between 1937 and 1949,\u00a0The Lord of the Rings\u00a0is one of the best-selling novels ever written, with over 150 million copies sold.<\/p>",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

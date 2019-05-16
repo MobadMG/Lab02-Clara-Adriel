@@ -1,0 +1,21 @@
+uuid: 07e8b0ed-b873-42ba-b80b-0cf9d9e6b36e
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.licencias
+  module:
+    - text
+id: taxonomy_term.licencias.default
+targetEntityType: taxonomy_term
+bundle: licencias
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

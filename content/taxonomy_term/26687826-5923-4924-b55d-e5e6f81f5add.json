@@ -1,0 +1,69 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/taxonomy\/term\/17?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/editorial"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/editorial\/parent": [
+            null
+        ]
+    },
+    "tid": [
+        {
+            "value": 17
+        }
+    ],
+    "uuid": [
+        {
+            "value": "26687826-5923-4924-b55d-e5e6f81f5add"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "editorial"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "OXFORD UNIVERSITY PRESS",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/editorial\/parent": [
+            null
+        ]
+    },
+    "changed": [
+        {
+            "value": "2019-05-06T22:49:23+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ]
+}

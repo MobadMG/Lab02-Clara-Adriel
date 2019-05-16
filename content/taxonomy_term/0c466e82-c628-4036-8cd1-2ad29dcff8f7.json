@@ -1,0 +1,69 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/taxonomy\/term\/19?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/licencias"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/licencias\/parent": [
+            null
+        ]
+    },
+    "tid": [
+        {
+            "value": 19
+        }
+    ],
+    "uuid": [
+        {
+            "value": "0c466e82-c628-4036-8cd1-2ad29dcff8f7"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "licencias"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "Copyright",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/licencias\/parent": [
+            null
+        ]
+    },
+    "changed": [
+        {
+            "value": "2019-05-16T21:55:05+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ]
+}

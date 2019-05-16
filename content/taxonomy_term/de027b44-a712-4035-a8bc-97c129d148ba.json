@@ -1,0 +1,69 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/taxonomy\/term\/9?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/titulo"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/titulo\/parent": [
+            null
+        ]
+    },
+    "tid": [
+        {
+            "value": 9
+        }
+    ],
+    "uuid": [
+        {
+            "value": "de027b44-a712-4035-a8bc-97c129d148ba"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "titulo"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "A Clash of Kings",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/titulo\/parent": [
+            null
+        ]
+    },
+    "changed": [
+        {
+            "value": "2019-05-04T19:36:08+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ]
+}

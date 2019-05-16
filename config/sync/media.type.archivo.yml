@@ -1,0 +1,13 @@
+uuid: 76e0abc3-7d8b-487a-a0a0-deb82568d599
+langcode: en
+status: true
+dependencies: {  }
+id: archivo
+label: Archivo
+description: ''
+source: file
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_file
+field_map: {  }

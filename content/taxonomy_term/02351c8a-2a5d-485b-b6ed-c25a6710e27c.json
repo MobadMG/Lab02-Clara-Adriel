@@ -1,0 +1,91 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/taxonomy\/term\/12?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/categoria"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/categoria\/parent": [
+            null
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/categoria\/field_categoria_imagen": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2019-05\/Fantas%C3%ADa.jpg"
+            }
+        ]
+    },
+    "tid": [
+        {
+            "value": 12
+        }
+    ],
+    "uuid": [
+        {
+            "value": "02351c8a-2a5d-485b-b6ed-c25a6710e27c"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "categoria"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "Fantasy",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": 1
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/categoria\/parent": [
+            null
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/categoria\/field_categoria_imagen": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2019-05\/Fantas%C3%ADa.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "836e754e-2ef6-456f-83a9-db3b9de5ed4a"
+                    }
+                ]
+            }
+        ]
+    },
+    "changed": [
+        {
+            "value": "2019-05-06T23:14:15+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ]
+}
